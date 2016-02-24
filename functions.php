@@ -107,7 +107,7 @@ function be_remove_genesis_page_templates( $page_templates ) {
 add_filter( 'theme_page_templates', 'be_remove_genesis_page_templates' );
 
  //* Reposition the entry header
- add_action( 'get_header', 'reposition_single_entry_header' );
+ /* add_action( 'get_header', 'reposition_single_entry_header' );
  function reposition_single_entry_header() {
 	 if ( is_singular() ) :
 		 remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
@@ -118,3 +118,4 @@ add_filter( 'theme_page_templates', 'be_remove_genesis_page_templates' );
 		 add_action( 'genesis_before_content', 'genesis_entry_header_markup_close', 15 );
 		endif;
  }
+*/
