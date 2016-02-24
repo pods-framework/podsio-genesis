@@ -16,7 +16,7 @@ function genesis_sample_google_fonts() {
 }
 
 // Add HTML5 markup structure
-add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
+add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption' ) );
 
 // Add Accessibility support
 // add_theme_support( 'genesis-accessibility', array( 'headings', 'drop-down-menu', 'search-form', 'skip-links', 'rems' ) );
@@ -105,3 +105,16 @@ function be_remove_genesis_page_templates( $page_templates ) {
 	return $page_templates;
 }
 add_filter( 'theme_page_templates', 'be_remove_genesis_page_templates' );
+
+ //* Reposition the entry header
+ add_action( 'get_header', 'reposition_single_entry_header' );
+ function reposition_single_entry_header() {
+	 if ( is_singular() ) :
+		 remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
+		 remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
+		 remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
+		 add_action( 'genesis_before_content', 'genesis_entry_header_markup_open', 5 );
+		 add_action( 'genesis_before_content', 'genesis_do_post_title' );
+		 add_action( 'genesis_before_content', 'genesis_entry_header_markup_close', 15 );
+		endif;
+ }
