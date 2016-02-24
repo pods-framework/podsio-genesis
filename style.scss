@@ -883,6 +883,37 @@ img.alignright,
 
 /* # Plugins
 ---------------------------------------------------------------------------------------------------- */
+/* Gravity Forms
+--------------------------------------------- */
+
+div.gform_wrapper input[type="email"],
+div.gform_wrapper input[type="text"],
+div.gform_wrapper textarea,
+div.gform_wrapper .ginput_complex label {
+	padding: 16px;
+}
+
+div.gform_wrapper .ginput_complex label {
+	padding: 0;
+}
+
+div.gform_wrapper li,
+div.gform_wrapper form li {
+	margin: 16px 0 0;
+}
+
+.sidebar .gform_wrapper .top_label input.medium,
+.sidebar .gform_wrapper .top_label select.medium,
+.site-inner .gform_wrapper .gform_footer input.button,
+.site-inner .gform_wrapper .gform_footer input[type="submit"] {
+	width: 100%;
+}
+
+div.gform_wrapper input:focus,
+div.gform_wrapper textarea:focus {
+	outline: 1px dotted #aaa;
+}
+
 
 
 /* ## Jetpack
@@ -1191,8 +1222,8 @@ img.alignright,
 
 /* Entry Header */
 .entry-header {
-	padding: 45px 0;
-	text-align: right;
+	padding: 25px 0;
+	/* text-align: right; */
 }
 
 /* ## Entries
