@@ -1432,10 +1432,19 @@ li.comment {
 
 .footer-widgets {
 	background: $grey;
+	color: $sec-color;
 	margin-top: 20px;
 	padding: 20px;
 }
 
+.footer-widgets a {
+	color: $sec-color;
+	text-decoration: underline;
+}
+
+.footer-widgets a:hover {
+	color: $pri-color;
+}
 .footer-widgets-1,
 .footer-widgets-2,
 .footer-widgets-3 {

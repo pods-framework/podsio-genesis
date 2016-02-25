@@ -1317,8 +1317,16 @@ li.comment {
 /* https://sridharkatakam.com/css-multi-column-footer-widgets-genesis/ */
 .footer-widgets {
   background: #73725D;
+  color: #BFBF9B;
   margin-top: 20px;
   padding: 20px; }
+
+.footer-widgets a {
+  color: #BFBF9B;
+  text-decoration: underline; }
+
+.footer-widgets a:hover {
+  color: #95BF3B; }
 
 .footer-widgets-1,
 .footer-widgets-2,
