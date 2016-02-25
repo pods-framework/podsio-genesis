@@ -961,7 +961,9 @@ div.gform_wrapper textarea:focus {
   color: #333; }
 
 .site-title a img {
-  vertical-align: top; }
+  vertical-align: top;
+  max-height: 75px;
+  width: auto; }
 
 .header-image .site-title > a {
   background: url(images/logo.png) no-repeat left;
