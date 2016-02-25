@@ -29,7 +29,7 @@
 		"outputAbbreviatedPath": "\/images\/docs.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/logo.png": {
 		"fileType": 32768,
@@ -40,7 +40,7 @@
 		"outputAbbreviatedPath": "\/images\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/logo@2x.png": {
 		"fileType": 32768,
@@ -51,7 +51,7 @@
 		"outputAbbreviatedPath": "\/images\/logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/js\/responsive-menu.js": {
 		"fileType": 64,

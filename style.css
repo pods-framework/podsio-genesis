@@ -281,7 +281,7 @@ body {
   background-image: url("images/docs.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: contain;
   color: #26261B;
   font-family: Lato, sans-serif;
