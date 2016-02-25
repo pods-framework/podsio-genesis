@@ -9,6 +9,8 @@ $rangitoto : #26261B; // Pods Black
 $ecru-white : #F2F2DC; // Pods White
 $pear : #B7E022; // Pods Highlight
 $configer : #B4D93E; // Alt Pods Highlight
+$limeade : #5E8A00; // Alt Anchor Color
+$verdun_green: #426100; // Alt Breadcrumb
 
 // Color Usage
 
@@ -31,5 +33,7 @@ $pri-color: $sushi;
 $sec-color: $coral-reef;
 $sec-shadow: $kokoda;
 $sec-highlight: mix($white, $sec-color, 60%);
-$highlight: mix($white, $pri-color, 60%);
+$highlight: mix($white, $pri-color, 20%);
 $shadow: 	mix($black, $pri-color, 40%);
+$anchor: $limeade;
+$breadcrumb: $verdun_green;

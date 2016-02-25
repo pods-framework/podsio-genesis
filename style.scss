@@ -177,7 +177,7 @@ textarea:focus,
 }
 
 a {
-	color: $fern-frond;
+	color: $anchor;
 	text-decoration: underline;
 }
 
@@ -747,6 +747,7 @@ input[type="search"]:focus:-ms-input-placeholder { color:transparent; } /* oldIE
 .entry-title {
 	font-size: 36px;
 	font-size: 3.6rem;
+	color: $grey;
 }
 
 .entry-title a,
@@ -1188,7 +1189,7 @@ div.gform_wrapper textarea:focus {
 }
 
 .nav-secondary .genesis-nav-menu a {
-	color: $sec-color;
+	color: $white;
 	text-decoration: none;
 }
 
@@ -1201,7 +1202,7 @@ div.gform_wrapper textarea:focus {
 }
 
 .nav-secondary .genesis-nav-menu .sub-menu a {
-	color: $grey;
+	color: $white;
 	background: $sec-color;
 }
 
@@ -1210,6 +1211,22 @@ div.gform_wrapper textarea:focus {
 .nav-secondary .genesis-nav-menu .sub-menu .current-menu-item > a {
 	color: $white;
 	text-decoration: underline;
+}
+
+/* Social Links Menu */
+li.social-icon a {
+	color: $pri-color;
+	text-decoration: none;
+}
+
+li.social-icon a:hover,
+li.social-icon a:focus {
+	color: $pear;
+	text-decoration: none;
+}
+
+.title-area nav-header .responsive-menu-icon {
+	display: none !important;
 }
 
 
@@ -1616,7 +1633,7 @@ li.comment {
 @media only screen and (max-width: 800px) {
 
 	body {
-		background-color: #fff;
+		background-color: $sec-color;
 		font-size: 16px;
 		font-size: 1.6rem;
 	}

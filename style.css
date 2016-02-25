@@ -307,7 +307,7 @@ textarea:focus,
   transition: all 0.1s ease-in-out; }
 
 a {
-  color: #5A7324;
+  color: #5E8A00;
   text-decoration: underline; }
 
 a:hover,
@@ -778,7 +778,8 @@ input[type="search"]:focus:-ms-input-placeholder {
 
 .entry-title {
   font-size: 36px;
-  font-size: 3.6rem; }
+  font-size: 3.6rem;
+  color: #73725D; }
 
 .entry-title a,
 .sidebar .widget-title a {
@@ -1017,7 +1018,7 @@ div.gform_wrapper textarea:focus {
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus {
-  color: #cdde9c;
+  color: #a8c95b;
   text-decoration: underline; }
 
 .genesis-nav-menu .sub-menu {
@@ -1127,7 +1128,7 @@ div.gform_wrapper textarea:focus {
   background-color: #73725D; }
 
 .nav-secondary .genesis-nav-menu a {
-  color: #BFBF9B;
+  color: #F2F2DC;
   text-decoration: none; }
 
 .nav-secondary .genesis-nav-menu a:hover,
@@ -1138,7 +1139,7 @@ div.gform_wrapper textarea:focus {
   /* text-decoration: underline; */ }
 
 .nav-secondary .genesis-nav-menu .sub-menu a {
-  color: #73725D;
+  color: #F2F2DC;
   background: #BFBF9B; }
 
 .nav-secondary .genesis-nav-menu .sub-menu a:hover,
@@ -1146,6 +1147,19 @@ div.gform_wrapper textarea:focus {
 .nav-secondary .genesis-nav-menu .sub-menu .current-menu-item > a {
   color: #F2F2DC;
   text-decoration: underline; }
+
+/* Social Links Menu */
+li.social-icon a {
+  color: #95BF3B;
+  text-decoration: none; }
+
+li.social-icon a:hover,
+li.social-icon a:focus {
+  color: #B7E022;
+  text-decoration: none; }
+
+.title-area nav-header .responsive-menu-icon {
+  display: none !important; }
 
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
@@ -1464,7 +1478,7 @@ li.comment {
     display: none; } }
 @media only screen and (max-width: 800px) {
   body {
-    background-color: #fff;
+    background-color: #BFBF9B;
     font-size: 16px;
     font-size: 1.6rem; }
 

@@ -106,16 +106,12 @@ function be_remove_genesis_page_templates( $page_templates ) {
 }
 add_filter( 'theme_page_templates', 'be_remove_genesis_page_templates' );
 
- //* Reposition the entry header
- /* add_action( 'get_header', 'reposition_single_entry_header' );
- function reposition_single_entry_header() {
-	 if ( is_singular() ) :
-		 remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
-		 remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
-		 remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
-		 add_action( 'genesis_before_content', 'genesis_entry_header_markup_open', 5 );
-		 add_action( 'genesis_before_content', 'genesis_do_post_title' );
-		 add_action( 'genesis_before_content', 'genesis_entry_header_markup_close', 15 );
-		endif;
- }
-*/
+
+function type_label ($post_type) {
+		$post_type_obj = get_post_type_object( $post_type );
+		$post_type_label = $post_type_obj->labels->singular_name;
+		return $post_type_label;
+}
+
+/* Add Menu Social Links filters */
+add_filter( 'storm_social_icons_use_latest', '__return_true' );
