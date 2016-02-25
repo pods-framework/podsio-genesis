@@ -307,8 +307,8 @@ textarea:focus,
   transition: all 0.1s ease-in-out; }
 
 a {
-  color: #69822e;
-  text-decoration: none; }
+  color: #5A7324;
+  text-decoration: underline; }
 
 a:hover,
 a:focus {
