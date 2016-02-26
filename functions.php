@@ -8,6 +8,16 @@ define( 'CHILD_THEME_URL', 'http://www.studiopress.com/' );
 define( 'CHILD_THEME_VERSION', '1.0' );
 define( 'CHILD_DOMAIN', 'podsio-genesis');
 
+
+/**
+ * Set the content width based on the theme's design and stylesheet.
+ *
+ * @since Twenty Fifteen 1.0
+ */
+if ( ! isset( $content_width ) ) {
+	$content_width = 680;
+}
+
 // Enqueue Google Fonts
 add_action( 'wp_enqueue_scripts', 'genesis_sample_google_fonts' );
 function genesis_sample_google_fonts() {
@@ -109,7 +119,7 @@ add_filter( 'theme_page_templates', 'be_remove_genesis_page_templates' );
 
 
 function type_label ($post_type) {
-	if ($post_type == 'page') { return 'Doc'; }
+	if ($post_type == 'page') { return 'Documentation'; }
 	$post_type_obj = get_post_type_object( $post_type );
 	$post_type_label = $post_type_obj->labels->singular_name;
 	return $post_type_label;

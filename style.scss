@@ -291,8 +291,14 @@ iframe,
 img,
 object,
 video,
-.wp-caption {
+.wp-caption,
+.wp-video {
 	max-width: 100%;
+}
+
+.wp-video {
+	min-width: 100%;
+	margin: 0 auto;
 }
 
 img {
