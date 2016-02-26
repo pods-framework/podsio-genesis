@@ -144,7 +144,7 @@ body > div {
     font-size: 1.8rem;
 }
 
-body {
+body, button, input, select, textarea {
 	background-color: $sec-color;
 	background-image: url('images/docs.png');
 	background-repeat: no-repeat;
@@ -677,12 +677,13 @@ th {
 --------------------------------------------- */
 
 .breadcrumb {
+	font-size: 1.6rem;
 	margin-bottom: 20px;
 }
 
 .archive-description,
 .author-box {
-	background-color: #fff;
+	background-color: $white;
 	font-size: 16px;
 	font-size: 1.6rem;
 	margin-bottom: 40px;
@@ -1041,7 +1042,7 @@ div.gform_wrapper textarea:focus {
 }
 
 .genesis-nav-menu a {
-	color: $sec-shadow;
+	color: $grey;
 	text-decoration: none;
 	display: block;
 	padding: 15px 20px;
@@ -1234,10 +1235,10 @@ li.social-icon a:focus {
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
 
-/* ## breadcrumb */
+/* ## breadcrumb */
 
-.breadcrumb {
-	font-size: 1.6rem;
+.breadcrumb a {
+	color: $breadcrumb;
 }
 
 .breadcrumb a:hover,

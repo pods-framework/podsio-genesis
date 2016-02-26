@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* # Pods.io Genesis Child Theme
 Theme Name: Pods.io Genesis Child Theme
 Theme URI: http://pods.io
@@ -12,12 +13,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 /** Variables for Theme **/
 /* Colors */
-/*
-$brand : $sushi;
-$brand-dark : $fern-frond;
-$shadow : $coral-reef;
-$brand-light : $pear;
-*/
 /* # Table of Contents
 - HTML5 Reset
 	- Baseline Normalize
@@ -276,14 +271,14 @@ html {
 body > div {
   font-size: 1.8rem; }
 
-body {
-  background-color: #BFBF9B;
+body, button, input, select, textarea {
+  background-color: #BFBE9B;
   background-image: url("images/docs.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
   background-size: contain;
-  color: #646350;
+  color: #646451;
   font-family: Lato, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
@@ -307,7 +302,7 @@ textarea:focus,
   transition: all 0.1s ease-in-out; }
 
 a {
-  color: #5E8A00;
+  color: #608C00;
   text-decoration: underline; }
 
 a:hover,
@@ -364,7 +359,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #73725D;
+  color: #73735D;
   font-family: Lato, sans-serif;
   font-weight: 400;
   line-height: 1.2;
@@ -712,11 +707,12 @@ th {
 /* ## Genesis
 --------------------------------------------- */
 .breadcrumb {
+  font-size: 1.6rem;
   margin-bottom: 20px; }
 
 .archive-description,
 .author-box {
-  background-color: #fff;
+  background-color: #F2F2DC;
   font-size: 16px;
   font-size: 1.6rem;
   margin-bottom: 40px;
@@ -779,11 +775,11 @@ input[type="search"]:focus:-ms-input-placeholder {
 .entry-title {
   font-size: 36px;
   font-size: 3.6rem;
-  color: #73725D; }
+  color: #73735D; }
 
 .entry-title a,
 .sidebar .widget-title a {
-  color: #73725D; }
+  color: #73735D; }
 
 .entry-title a:hover,
 .entry-title a:focus {
@@ -933,7 +929,7 @@ div.gform_wrapper textarea:focus {
 /* # Site Header
 ---------------------------------------------------------------------------------------------------- */
 .site-header {
-  background-color: #26261B;
+  background-color: #26261F;
   color: #95BF3B;
   /*min-height: 160px;*/ }
 
@@ -1008,7 +1004,7 @@ div.gform_wrapper textarea:focus {
   text-align: left; }
 
 .genesis-nav-menu a {
-  color: #73725D;
+  color: #73735D;
   text-decoration: none;
   display: block;
   padding: 15px 20px; }
@@ -1100,7 +1096,7 @@ div.gform_wrapper textarea:focus {
 /* ## Primary Navigation
 --------------------------------------------- */
 .nav-primary {
-  background-color: #26261B; }
+  background-color: #26261F; }
 
 .nav-primary .genesis-nav-menu a {
   color: #95BF3B;
@@ -1110,7 +1106,7 @@ div.gform_wrapper textarea:focus {
 .nav-primary .genesis-nav-menu a:focus,
 .nav-primary .genesis-nav-menu .current-menu-item > a {
   color: #F2F2DC;
-  background-color: #73725D;
+  background-color: #73735D;
   /* text-decoration: underline; */ }
 
 .nav-primary .genesis-nav-menu .sub-menu a {
@@ -1125,7 +1121,7 @@ div.gform_wrapper textarea:focus {
 /* ## Secondary Navigation
 --------------------------------------------- */
 .nav-secondary {
-  background-color: #73725D; }
+  background-color: #73735D; }
 
 .nav-secondary .genesis-nav-menu a {
   color: #F2F2DC;
@@ -1134,13 +1130,13 @@ div.gform_wrapper textarea:focus {
 .nav-secondary .genesis-nav-menu a:hover,
 .nav-secondary .genesis-nav-menu a:focus,
 .nav-secondary .genesis-nav-menu .current-menu-item > a {
-  color: #73725D;
-  background-color: #BFBF9B;
+  color: #73735D;
+  background-color: #BFBE9B;
   /* text-decoration: underline; */ }
 
 .nav-secondary .genesis-nav-menu .sub-menu a {
   color: #F2F2DC;
-  background: #BFBF9B; }
+  background: #BFBE9B; }
 
 .nav-secondary .genesis-nav-menu .sub-menu a:hover,
 .nav-secondary .genesis-nav-menu .sub-menu a:focus,
@@ -1165,8 +1161,9 @@ li.social-icon a:focus {
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
 /* ## breadcrumb */
-.breadcrumb {
-  font-size: 1.6rem; }
+
+.breadcrumb a {
+  color: #698230; }
 
 .breadcrumb a:hover,
 .breadcrumb a:focus {
@@ -1216,7 +1213,7 @@ p.entry-meta {
   margin-bottom: 24px; }
 
 .entry-footer .entry-meta {
-  border-top: 2px solid #BFBF9B;
+  border-top: 2px solid #BFBE9B;
   padding-top: 24px; }
 
 .entry-categories,
@@ -1240,7 +1237,7 @@ p.entry-meta {
   display: inline; }
 
 .archive-pagination li a {
-  background-color: #73725D;
+  background-color: #73735D;
   color: #F2F2DC;
   cursor: pointer;
   display: inline-block;
@@ -1327,7 +1324,7 @@ li.comment {
   margin-bottom: 0; }
 
 .sidebar .widget {
-  background-color: #dedec2;
+  background-color: #deddc2;
   margin-bottom: 20px;
   padding: 20px; }
 
@@ -1335,13 +1332,13 @@ li.comment {
 ---------------------------------------------------------------------------------------------------- */
 /* https://sridharkatakam.com/css-multi-column-footer-widgets-genesis/ */
 .footer-widgets {
-  background: #73725D;
-  color: #BFBF9B;
+  background: #73735D;
+  color: #BFBE9B;
   margin-top: 20px;
   padding: 20px; }
 
 .footer-widgets a {
-  color: #BFBF9B;
+  color: #BFBE9B;
   text-decoration: underline; }
 
 .footer-widgets a:hover {
@@ -1362,7 +1359,7 @@ li.comment {
 /* # Site Footer
 ---------------------------------------------------------------------------------------------------- */
 .site-footer {
-  background-color: #26261B;
+  background-color: #26261F;
   color: #95BF3B;
   font-size: 16px;
   font-size: 1.6rem;
@@ -1483,7 +1480,7 @@ li.comment {
     display: none; } }
 @media only screen and (max-width: 800px) {
   body {
-    background-color: #BFBF9B;
+    background-color: #BFBE9B;
     font-size: 16px;
     font-size: 1.6rem; }
 

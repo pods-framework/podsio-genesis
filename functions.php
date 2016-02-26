@@ -6,6 +6,7 @@ include_once( get_template_directory() . '/lib/init.php' );
 define( 'CHILD_THEME_NAME', 'Pods IO Genesis Child Theme' );
 define( 'CHILD_THEME_URL', 'http://www.studiopress.com/' );
 define( 'CHILD_THEME_VERSION', '1.0' );
+define( 'CHILD_DOMAIN', 'podsio-genesis');
 
 // Enqueue Google Fonts
 add_action( 'wp_enqueue_scripts', 'genesis_sample_google_fonts' );
@@ -67,7 +68,7 @@ function custom_header_inline_logo( $title, $inside, $wrap ) {
 }
 
 // Remove the site description
-remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
+/* remove_action( 'genesis_site_description', 'genesis_seo_site_description' ); */
 
 // Enqueue scripts and styles
 add_action( 'wp_enqueue_scripts', 'custom_scripts_styles_mobile_responsive' );
@@ -108,9 +109,10 @@ add_filter( 'theme_page_templates', 'be_remove_genesis_page_templates' );
 
 
 function type_label ($post_type) {
-		$post_type_obj = get_post_type_object( $post_type );
-		$post_type_label = $post_type_obj->labels->singular_name;
-		return $post_type_label;
+	if ($post_type == 'page') { return 'Doc'; }
+	$post_type_obj = get_post_type_object( $post_type );
+	$post_type_label = $post_type_obj->labels->singular_name;
+	return $post_type_label;
 }
 
 /* Add Menu Social Links filters */
