@@ -278,7 +278,7 @@ body {
   background-position: top center;
   background-attachment: fixed;
   background-size: contain;
-  color: #646451;
+  color: #454538;
   font-family: Lato, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
@@ -1138,7 +1138,7 @@ div.gform_wrapper textarea:focus {
 .nav-secondary .genesis-nav-menu a:hover,
 .nav-secondary .genesis-nav-menu a:focus,
 .nav-secondary .genesis-nav-menu .current-menu-item > a {
-  color: #73735D;
+  color: #52632a;
   background-color: #BFBE9B;
   /* text-decoration: underline; */ }
 
@@ -1149,7 +1149,7 @@ div.gform_wrapper textarea:focus {
 .nav-secondary .genesis-nav-menu .sub-menu a:hover,
 .nav-secondary .genesis-nav-menu .sub-menu a:focus,
 .nav-secondary .genesis-nav-menu .sub-menu .current-menu-item > a {
-  color: #F2F2DC;
+  color: #26261F;
   text-decoration: underline; }
 
 /* Social Links Menu */
@@ -1160,7 +1160,7 @@ li.social-icon a {
 
 li.social-icon a:hover,
 li.social-icon a:focus {
-  color: #B7E022;
+  color: #F2F2DC;
   text-decoration: none; }
 
 .title-area nav-header .responsive-menu-icon {
@@ -1171,7 +1171,7 @@ li.social-icon a:focus {
 /* ## breadcrumb */
 
 .breadcrumb a {
-  color: #698230; }
+  color: #52632a; }
 
 .breadcrumb a:hover,
 .breadcrumb a:focus {
@@ -1206,10 +1206,12 @@ li.social-icon a:focus {
 .entry-content ul ul {
   margin-bottom: 0; }
 
+/*
 .entry-content code {
-  background-color: #333;
-  color: #ddd; }
-
+	background-color: #333;
+	color: #ddd;
+}
+*/
 /* ## Entry Meta
 --------------------------------------------- */
 p.entry-meta {
@@ -1336,17 +1338,20 @@ li.comment {
   margin-bottom: 20px;
   padding: 20px; }
 
+.sidebar .widget a:hover {
+  color: #454538; }
+
 /* # Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 /* https://sridharkatakam.com/css-multi-column-footer-widgets-genesis/ */
 .footer-widgets {
   background: #73735D;
-  color: #BFBE9B;
+  color: #F2F2DC;
   margin-top: 20px;
   padding: 20px; }
 
 .footer-widgets a {
-  color: #BFBE9B;
+  color: #F2F2DC;
   text-decoration: underline; }
 
 .footer-widgets a:hover {
@@ -1659,8 +1664,7 @@ li.comment {
     orphans: 3;
     widows: 3; }
 
-  blockquote,
-  pre {
+  blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
@@ -1723,7 +1727,6 @@ li.comment {
     page-break-inside: avoid; }
 
   blockquote,
-  pre,
   table {
     page-break-inside: avoid; }
 

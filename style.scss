@@ -1207,7 +1207,7 @@ div.gform_wrapper textarea:focus {
 .nav-secondary .genesis-nav-menu a:hover,
 .nav-secondary .genesis-nav-menu a:focus,
 .nav-secondary .genesis-nav-menu .current-menu-item > a {
-	color: $grey;
+	color: $dark-shadow;
 	background-color: $sec-color;
 	/* text-decoration: underline; */
 }
@@ -1220,7 +1220,7 @@ div.gform_wrapper textarea:focus {
 .nav-secondary .genesis-nav-menu .sub-menu a:hover,
 .nav-secondary .genesis-nav-menu .sub-menu a:focus,
 .nav-secondary .genesis-nav-menu .sub-menu .current-menu-item > a {
-	color: $white;
+	color: $black;
 	text-decoration: underline;
 }
 
@@ -1233,7 +1233,7 @@ li.social-icon a {
 
 li.social-icon a:hover,
 li.social-icon a:focus {
-	color: $pear;
+	color: $white;
 	text-decoration: none;
 }
 
@@ -1293,10 +1293,12 @@ li.social-icon a:focus {
 	margin-bottom: 0;
 }
 
+/*
 .entry-content code {
 	background-color: #333;
 	color: #ddd;
 }
+*/
 
 /* ## Entry Meta
 --------------------------------------------- */
@@ -1459,6 +1461,10 @@ li.comment {
 	padding: 20px;
 }
 
+.sidebar .widget a:hover {
+	color: $dark-grey;
+}
+
 /* # Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 
@@ -1466,13 +1472,13 @@ li.comment {
 
 .footer-widgets {
 	background: $grey;
-	color: $sec-color;
+	color: $white;
 	margin-top: 20px;
 	padding: 20px;
 }
 
 .footer-widgets a {
-	color: $sec-color;
+	color: $white;
 	text-decoration: underline;
 }
 
@@ -1862,8 +1868,7 @@ li.comment {
 		widows: 3;
 	}
 
-	blockquote,
-	pre {
+	blockquote {
 		border: 1px solid #999;
 		page-break-inside: avoid;
 	}
@@ -1936,7 +1941,6 @@ li.comment {
 	}
 
 	blockquote,
-	pre,
 	table {
 		page-break-inside: avoid;
 	}
