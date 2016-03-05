@@ -136,4 +136,8 @@ function my_add_excerpts_to_pages() {
 }
 
 /* Remove JetPack Sharing from Excerpt Display */
-remove_filter( 'the_excerpt', 'sharing_display', 19 );
+function jetpacktweak_remove_share () {
+	remove_filter( 'the_excerpt', 'sharing_display', 19 );
+}
+
+add_action( 'loop_start', 'jetpacktweak_remove_share' );
