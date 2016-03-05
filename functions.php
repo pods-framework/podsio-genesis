@@ -127,3 +127,10 @@ function type_label ($post_type) {
 
 /* Add Menu Social Links filters */
 add_filter( 'storm_social_icons_use_latest', '__return_true' );
+
+/* Add Post Excerpt to Pages */
+add_action( 'init', 'my_add_excerpts_to_pages' );
+
+function my_add_excerpts_to_pages() {
+     add_post_type_support( 'page', 'excerpt' );
+}
