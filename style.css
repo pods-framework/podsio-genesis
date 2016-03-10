@@ -1436,8 +1436,8 @@ ul.toc_sitemap_pages_list > li {
   width: 31.623931623931625%;
   min-height: 250px; }
 
-u.toc_sitemap_pages_list > li:first {
-  padding-left: 0px; }
+u.toc_sitemap_pages_list > li:first-child {
+  margin-left: 0px; }
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
