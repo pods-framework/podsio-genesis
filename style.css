@@ -1436,9 +1436,9 @@ ul.toc_sitemap_pages_list > li {
   /* border-bottom: 3px solid #9595FD; */
   margin-left: 2.564102564102564%;
   max-height: 300px;
-  overflow: overlay;
+  overflow: auto;
   width: 31.623931623931625%;
-  min-height: 250px; }
+  min-height: 200px; }
 
 ul.toc_sitemap_pages_list li {
   list-style: none; }
