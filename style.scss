@@ -1561,6 +1561,10 @@ li.comment {
 }
 
 /* Table of Contents Front Page */
+.toc_sitemap_pages {
+	text-align: center;
+	margin-bottom: 10px;
+}
 ul.toc_sitemap_pages_list {
 	margin-left: 0px;
 }
@@ -1576,8 +1580,18 @@ ul.toc_sitemap_pages_list > li {
     min-height: 250px;
 }
 
-ul.toc_sitemap_pages_list > li:first-child {
+ul.toc_sitemap_pages_list li {
+	list-style: none;
+}
+
+ul.toc_sitemap_pages_list > li:first-child,
+ul.toc_sitemap_pages_list > li:nth-child(4n+3) {
 	margin-left: 0px;
+}
+
+/* Temporarily hide grandchildren */
+ul.toc_sitemap_pages_list li > ul > li > ul {
+    display: none;
 }
 
 /* # Media Queries
