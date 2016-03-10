@@ -1421,6 +1421,24 @@ li.comment {
 .entry-content .soliloquy-controls-direction a, .entry-content a.soliloquy-pager-link {
   border-bottom: none; }
 
+/* Table of Contents Front Page */
+ul.toc_sitemap_pages_list {
+  margin-left: 0px; }
+
+ul.toc_sitemap_pages_list > li {
+  list-style: none;
+  float: left;
+  margin-bottom: 20px;
+  /* border-bottom: 3px solid #9595FD; */
+  margin-left: 2.564102564102564%;
+  max-height: 300px;
+  overflow: overlay;
+  width: 31.623931623931625%;
+  min-height: 250px; }
+
+u.toc_sitemap_pages_list > li:first {
+  padding-left: 0px; }
+
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
