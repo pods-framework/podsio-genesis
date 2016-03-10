@@ -958,7 +958,8 @@ div.gform_wrapper textarea:focus {
   font-size: 32px;
   font-size: 3.2rem;
   font-weight: 400;
-  line-height: 1.2; }
+  line-height: 1.2;
+  float: left; }
 
 .site-title a,
 .site-title a:hover,
@@ -980,7 +981,9 @@ div.gform_wrapper textarea:focus {
   font-size: 16px;
   font-size: 1.6rem;
   font-weight: 300;
-  line-height: 1.5; }
+  line-height: 1.5;
+  margin: 40px;
+  float: left; }
 
 .site-description,
 .site-title {
@@ -1420,36 +1423,6 @@ li.comment {
 /* To remove bottom border for Soliloquy controls */
 .entry-content .soliloquy-controls-direction a, .entry-content a.soliloquy-pager-link {
   border-bottom: none; }
-
-/* Table of Contents Front Page */
-.toc_sitemap_pages {
-  text-align: center;
-  margin-bottom: 10px; }
-
-ul.toc_sitemap_pages_list {
-  margin-left: 0px; }
-
-ul.toc_sitemap_pages_list > li {
-  list-style: none;
-  float: left;
-  margin-bottom: 20px;
-  /* border-bottom: 3px solid #9595FD; */
-  margin-left: 2.564102564102564%;
-  max-height: 300px;
-  overflow: auto;
-  width: 31.623931623931625%;
-  min-height: 200px; }
-
-ul.toc_sitemap_pages_list li {
-  list-style: none; }
-
-ul.toc_sitemap_pages_list > li:first-child,
-ul.toc_sitemap_pages_list > li:nth-child(4n+3) {
-  margin-left: 0px; }
-
-/* Temporarily hide grandchildren */
-ul.toc_sitemap_pages_list li > ul > li > ul {
-  display: none; }
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
