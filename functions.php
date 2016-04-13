@@ -84,7 +84,7 @@ function custom_header_inline_logo( $title, $inside, $wrap ) {
 add_action( 'wp_enqueue_scripts', 'custom_scripts_styles_mobile_responsive' );
 function custom_scripts_styles_mobile_responsive() {
 
-	wp_enqueue_script( 'responsive-menu', get_stylesheet_directory_uri() . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0', true );
+	wp_enqueue_script( 'responsive-menu', get_stylesheet_directory_uri() . '/js/responsive-menu.js', array( 'jquery' ), '1.2.0', true );
 	wp_enqueue_style( 'dashicons' );
 	wp_localize_script( 'responsive-menu', 'screenReaderText', array(
 		'expand'   => '<span class="screen-reader-text">' . __( 'expand child menu', 'podsio-genesis' ) . '</span>',
