@@ -1175,7 +1175,7 @@ li.social-icon a:focus {
  */
 .widget_pages a {
   display: block;
-  padding: 0.8em 0;
+  padding: 0.6em 0;
   position: relative;
   text-decoration: none; }
 
@@ -1225,6 +1225,7 @@ li.social-icon a:focus {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
+  font-family: 'FontAwesome';
   content: "";
   height: 42px;
   padding: 0;
@@ -1237,9 +1238,9 @@ li.social-icon a:focus {
 
 .dropdown-toggle:after {
   color: #333;
-  content: "\f431";
-  font-size: 24px;
-  line-height: 42px;
+  content: "\f054";
+  font-size: 0.8em;
+  line-height: 1;
   position: relative;
   top: 0;
   left: 1px;
@@ -1255,7 +1256,7 @@ li.social-icon a:focus {
   outline: 1px solid rgba(51, 51, 51, 0.3); }
 
 .dropdown-toggle.toggle-on:after {
-  content: "\f432"; }
+  content: "\f078"; }
 
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
