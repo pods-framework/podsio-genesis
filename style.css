@@ -909,7 +909,7 @@ div.gform_wrapper form li {
 .site-inner .gform_wrapper .gform_footer input[type="submit"] {
   width: 100%; }
 
-.gform_wrapper {
+div.gform_wrapper {
   max-width: 100%; }
 
 div.gform_wrapper input:focus,
