@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* # Pods.io Genesis Child Theme
 Theme Name: Pods.io Genesis Child Theme
 Theme URI: http://pods.io
@@ -278,7 +277,7 @@ body {
   background-position: top center;
   background-attachment: fixed;
   background-size: contain;
-  color: #454538;
+  color: #444437;
   font-family: Lato, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
@@ -310,7 +309,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #a8c95b;
+  color: #a7c95b;
   text-decoration: underline; }
 
 p {
@@ -1033,7 +1032,7 @@ div.gform_wrapper textarea:focus {
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus {
-  color: #a8c95b;
+  color: #a7c95b;
   text-decoration: underline; }
 
 .genesis-nav-menu .sub-menu {
@@ -1192,8 +1191,7 @@ li.social-icon a:focus {
   margin: 0; }
 
 .widget_pages ul ul {
-  display: none;
-  margin-left: 0.8em; }
+  display: none; }
 
 .widget_pages ul .toggled-on {
   display: block; }
@@ -1205,7 +1203,7 @@ li.social-icon a:focus {
 
 .widget_pages .current_page_item > a,
 .widget_pages .current_page_ancestor > a {
-  font-weight: 700; }
+  font-weight: 500; }
 
 .widget_pages > ul > li:first-child,
 .widget_pages > li:first-child {
@@ -1235,7 +1233,7 @@ li.social-icon a:focus {
   width: 42px; }
 
 .dropdown-toggle:after {
-  color: #7fa035;
+  color: #7ea035;
   content: "\f054";
   font-size: 0.8em;
   line-height: 1;
@@ -1259,7 +1257,6 @@ li.social-icon a:focus {
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
 /* ## breadcrumb */
-
 .breadcrumb a {
   color: #52632a; }
 
@@ -1424,12 +1421,12 @@ li.comment {
   margin-bottom: 0; }
 
 .sidebar .widget {
-  background-color: #deddc2;
+  background-color: #ddddc2;
   margin-bottom: 20px;
   padding: 20px; }
 
 .sidebar .widget a:hover {
-  color: #454538; }
+  color: #444437; }
 
 /* # Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
@@ -1824,3 +1821,5 @@ li.comment {
   ol,
   ul {
     page-break-before: avoid; } }
+
+/*# sourceMappingURL=style.css.map */

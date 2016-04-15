@@ -1273,7 +1273,6 @@ li.social-icon a:focus {
 
 .widget_pages ul ul {
 	display: none;
-	margin-left: 0.8em;
 }
 
 .widget_pages ul .toggled-on {
@@ -1288,7 +1287,7 @@ li.social-icon a:focus {
 
 .widget_pages .current_page_item > a,
 .widget_pages .current_page_ancestor > a {
-	font-weight: 700;
+	font-weight: 500;
 }
 
 .widget_pages  > ul > li:first-child,
@@ -1349,11 +1348,10 @@ li.social-icon a:focus {
 }
 
 
-
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
 
-/* ## breadcrumb */
+/* ## breadcrumb */
 
 .breadcrumb a {
 	color: $breadcrumb;
