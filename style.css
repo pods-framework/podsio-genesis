@@ -1191,8 +1191,7 @@ li.social-icon a:focus {
   margin: 0; }
 
 .widget_pages ul ul {
-  display: none;
-  margin-left: 0.8em; }
+  display: none; }
 
 .widget_pages ul .toggled-on {
   display: block; }
@@ -1204,7 +1203,7 @@ li.social-icon a:focus {
 
 .widget_pages .current_page_item > a,
 .widget_pages .current_page_ancestor > a {
-  font-weight: 700; }
+  font-weight: 500; }
 
 .widget_pages > ul > li:first-child,
 .widget_pages > li:first-child {
@@ -1822,3 +1821,5 @@ li.comment {
   ol,
   ul {
     page-break-before: avoid; } }
+
+/*# sourceMappingURL=style.css.map */
