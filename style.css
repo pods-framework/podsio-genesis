@@ -1416,8 +1416,8 @@ li.comment {
 
 .sidebar li {
   /* border-bottom: 1px dotted #ddd; */
-  margin-bottom: 10px;
-  padding-bottom: 10px; }
+  /* margin-bottom: 10px;
+  padding-bottom: 10px; */ }
 
 .sidebar p:last-child,
 .sidebar ul > li:last-child {
