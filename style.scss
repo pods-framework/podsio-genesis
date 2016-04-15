@@ -1322,7 +1322,7 @@ li.social-icon a:focus {
 }
 
 .dropdown-toggle:after {
-	color: #333;
+	color: $shadow;
 	content: "\f054";
 	font-size: 0.8em;
 	line-height: 1;
@@ -1331,6 +1331,7 @@ li.social-icon a:focus {
 	left: 1px;
 	width: 42px;
 }
+
 
 .dropdown-toggle:hover,
 .dropdown-toggle:focus {
