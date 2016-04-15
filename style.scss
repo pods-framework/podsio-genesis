@@ -1285,6 +1285,10 @@ li.social-icon a:focus {
 	position: relative;
 }
 
+.widget_pages li.current_page_item > a {
+	border-right: 3px solid $shadow;
+}
+
 .widget_pages .current_page_item > a,
 .widget_pages .current_page_ancestor > a {
 	font-weight: 500;
@@ -1321,7 +1325,7 @@ li.social-icon a:focus {
 }
 
 .dropdown-toggle:after {
-	color: $shadow;
+	color: $pri-color;
 	content: "\f054";
 	font-size: 0.8em;
 	line-height: 1;
@@ -1345,6 +1349,7 @@ li.social-icon a:focus {
 
 .dropdown-toggle.toggle-on:after {
 	content: "\f078";
+	color: $shadow;
 }
 
 
