@@ -1258,15 +1258,23 @@ li.social-icon a:focus {
   content: "\f078";
   color: #7fa035; }
 
+/* # Doc Info Sidebar */
+.related-content {
+  background: #73735D;
+  color: #deddc2; }
+
+.related-content li ul {
+  background: #deddc2; }
+
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
 /* ## breadcrumb */
 .breadcrumb a {
-  color: #52632a; }
+  /* color: $breadcrumb; */ }
 
 .breadcrumb a:hover,
 .breadcrumb a:focus {
-  color: #B7E022; }
+  color: #454538; }
 
 /* Entry Header */
 .entry-header {
