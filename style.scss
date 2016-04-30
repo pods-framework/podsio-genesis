@@ -1352,6 +1352,17 @@ li.social-icon a:focus {
 	color: $shadow;
 }
 
+/* # Doc Info Sidebar */
+
+.related-content {
+	background: $grey;
+	color: $sec-highlight
+}
+
+.related-content li ul {
+	background: $sec-highlight;
+}
+
 
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
@@ -1359,12 +1370,12 @@ li.social-icon a:focus {
 /* ## breadcrumb */
 
 .breadcrumb a {
-	color: $breadcrumb;
+	/* color: $breadcrumb; */
 }
 
 .breadcrumb a:hover,
 .breadcrumb a:focus {
-	color: $pear;
+	color: $dark-grey;
 }
 
 /* Entry Header */
