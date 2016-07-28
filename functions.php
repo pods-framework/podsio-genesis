@@ -155,3 +155,28 @@ function change_doc_entry_text( $title ) {
 	return $title;
 }
 add_filter( 'enter_title_here', 'change_doc_entry_text' );
+
+/* This filter fixes an issue where the Blog page is highlighted as a menu item
+ * for archives/singles of other post types.
+ */
+
+function custom_type_nav_class($classes, $item) {
+     $post_type = get_post_type();
+
+     // Remove current_page_parent from classes if the current item is the blog page
+     // Note: The object_id property seems to be the ID of the menu item's target.
+     if ($post_type != 'post' && $item->object_id == get_option('page_for_posts')) {
+         $current_value = "current_page_parent";
+         $classes = array_filter($classes, function ($element) use ($current_value) { return ($element != $current_value); } );
+     }
+
+     // Now look for post-type-<name> in the classes. A menu item with this class
+     // should be given a class that will highlight it.
+     $this_type_class = 'post-type-' . $post_type;
+     if (in_array( $this_type_class, $classes )) {
+         array_push($classes, 'current_page_parent');
+     };
+
+     return $classes;
+}
+add_filter('nav_menu_css_class', 'custom_type_nav_class', 10, 2);
