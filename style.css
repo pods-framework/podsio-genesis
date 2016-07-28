@@ -1272,6 +1272,9 @@ li.social-icon a:focus {
   clear: both;
   margin-left: 0; }
 
+#toc {
+  clear: both; }
+
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
 /* ## breadcrumb */
