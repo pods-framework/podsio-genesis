@@ -1363,6 +1363,13 @@ li.social-icon a:focus {
 	background: $sec-highlight;
 }
 
+/* # Landing Page
+---------------------------------------------------------------------------------------------------- */
+#toc div.content-block.one-third:nth-child(3n+1) {
+    clear: both;
+    margin-left: 0;
+}
+
 
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
