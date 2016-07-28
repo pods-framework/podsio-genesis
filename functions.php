@@ -22,7 +22,7 @@ if ( ! isset( $content_width ) ) {
 add_action( 'wp_enqueue_scripts', 'genesis_sample_google_fonts' );
 function genesis_sample_google_fonts() {
 
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,400,700', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,400,500,700', array(), CHILD_THEME_VERSION );
 }
 
 // Add HTML5 markup structure
