@@ -2123,3 +2123,16 @@ li.comment {
 	}
 
 }
+
+#nav_menu-3 {
+	.responsive-menu-icon {
+		display: none;
+	}
+	#menu-social-links {
+		display: block;
+		
+		.menu-item {
+			display: inline-block;
+		}
+	}
+}
