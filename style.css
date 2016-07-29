@@ -1278,6 +1278,28 @@ li.social-icon a:focus {
 #toc {
   clear: both; }
 
+/* # Post Type Icons
+---------------------------------------------------------------------------------------------------- */
+/* Documentation Page, post-type: page */
+i.fa.fa-fw.page:before {
+  content: "\f15c"; }
+
+/* Code Snippet, post-type: doc_example */
+i.fa.fa-fw.docs_example:before {
+  content: "\f121"; }
+
+/* Video, post-type: video */
+i.fa.fa-fw.video:before {
+  content: "\f03d"; }
+
+/* Tutorial, post-type: tutorial */
+i.fa.fa-fw.tutorial:before {
+  content: "\f19d"; }
+
+/* FAQ, post-type: faq */
+i.fa.fa-fw.faq:before {
+  content: "\f059"; }
+
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
 /* ## breadcrumb */
