@@ -156,6 +156,18 @@ function change_doc_entry_text( $title ) {
 }
 add_filter( 'enter_title_here', 'change_doc_entry_text' );
 
+/* Output filter for my_date
+   Use this against a date field in your Pods Fields like so:
+   {@post_date,my_date}
+
+   The Function below should be in your functions.php
+*/
+
+
+function return_date_and_age($input_date) {
+     return date("m/d/Y", strtotime($input_date));
+}
+
 /* This filter fixes an issue where the Blog page is highlighted as a menu item
  * for archives/singles of other post types.
  */
