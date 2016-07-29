@@ -1358,6 +1358,15 @@ li.social-icon a:focus {
 
 /* # Doc Info Sidebar */
 
+.related-content-box {
+	background: $grey;
+	color: $sec-highlight;
+	padding: 10px;
+}
+
+.related-content-box h5 {
+	color: $sec-highlight;
+}
 .related-content {
 	background: $grey;
 	color: $sec-highlight

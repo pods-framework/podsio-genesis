@@ -1262,6 +1262,14 @@ li.social-icon a:focus {
   color: #7fa035; }
 
 /* # Doc Info Sidebar */
+.related-content-box {
+  background: #73735D;
+  color: #deddc2;
+  padding: 10px; }
+
+.related-content-box h5 {
+  color: #deddc2; }
+
 .related-content {
   background: #73735D;
   color: #deddc2; }
