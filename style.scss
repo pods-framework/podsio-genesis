@@ -1294,6 +1294,10 @@ li.social-icon a:focus {
 	font-weight: 500;
 }
 
+.widget_pages .current_page_item .children {
+	display: block;
+}
+
 .widget_pages  > ul > li:first-child,
 .widget_pages  > li:first-child {
 	border-top: 0;
