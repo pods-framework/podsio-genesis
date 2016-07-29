@@ -165,7 +165,7 @@ add_filter( 'enter_title_here', 'change_doc_entry_text' );
 
 
 function return_date($input_date) {
-    return date("M d, Y", strtotime($input_date));
+    return date("m d, Y", strtotime($input_date));
 }
 
 function return_age($input_date) {
