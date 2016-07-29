@@ -164,8 +164,13 @@ add_filter( 'enter_title_here', 'change_doc_entry_text' );
 */
 
 
-function return_date_and_age($input_date) {
-     return date("d-M-y", strtotime($input_date));
+function return_date($input_date) {
+    return date("d-M-y", strtotime($input_date));
+}
+
+function return_age($input_date) {
+	$now = date("Y-m-d");
+	return date_diff(date_create($input_date), date_create($now))->format('%a days ago');
 }
 
 /* This filter fixes an issue where the Blog page is highlighted as a menu item
