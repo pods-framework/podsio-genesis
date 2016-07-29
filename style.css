@@ -1208,6 +1208,9 @@ li.social-icon a:focus {
 .widget_pages .current_page_ancestor > a {
   font-weight: 500; }
 
+.widget_pages .current_page_item .children {
+  display: block; }
+
 .widget_pages > ul > li:first-child,
 .widget_pages > li:first-child {
   border-top: 0; }
@@ -1617,7 +1620,6 @@ li.comment {
   .entry,
   .entry-comments,
   .entry-pings,
-  .sidebar .widget,
   .site-header {
     padding: 0; }
 
@@ -1842,3 +1844,9 @@ li.comment {
   ol,
   ul {
     page-break-before: avoid; } }
+#nav_menu-3 .responsive-menu-icon {
+  display: none; }
+#nav_menu-3 #menu-social-links {
+  display: block; }
+  #nav_menu-3 #menu-social-links .menu-item {
+    display: inline-block; }
