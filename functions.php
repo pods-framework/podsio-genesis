@@ -165,7 +165,7 @@ add_filter( 'enter_title_here', 'change_doc_entry_text' );
 
 
 function return_date_and_age($input_date) {
-     return date("m/d/Y", strtotime($input_date));
+     return date("d-M-y", strtotime($input_date));
 }
 
 /* This filter fixes an issue where the Blog page is highlighted as a menu item
