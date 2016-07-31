@@ -197,3 +197,10 @@ function custom_type_nav_class($classes, $item) {
      return $classes;
 }
 add_filter('nav_menu_css_class', 'custom_type_nav_class', 10, 2);
+
+/* Adding Facet WP to Genesis */
+function custom_facetwp_class( $atts ) {
+    $atts['class'] .= ' facetwp-template';
+    return $atts;
+}
+add_filter( 'genesis_attr_content', 'custom_facetwp_class' );
