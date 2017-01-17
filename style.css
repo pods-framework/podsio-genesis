@@ -1211,6 +1211,12 @@ li.social-icon a:focus {
 .widget_pages .current_page_item .children {
   display: block; }
 
+.widget_pages .current_page_item.page_item_has_children .children .page_item_has_children .children {
+  display: none; }
+
+.widget_pages .current_page_item.page_item_has_children .children .page_item_has_children .children.toggled-on {
+  display: block;}
+
 .widget_pages > ul > li:first-child,
 .widget_pages > li:first-child {
   border-top: 0; }
