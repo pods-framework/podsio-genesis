@@ -1215,7 +1215,7 @@ li.social-icon a:focus {
   display: none; }
 
 .widget_pages .current_page_item.page_item_has_children .children .page_item_has_children .children.toggled-on {
-  display: block;}
+  display: block; }
 
 .widget_pages > ul > li:first-child,
 .widget_pages > li:first-child {
